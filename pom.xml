@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ru.kalantaev</groupId>
+    <artifactId>new-project</artifactId>
+    <version>1.0.1.RELEASE</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>api</module>
+    </modules>
+
+    <!--&lt;!&ndash;указание локального репозитория&ndash;&gt;-->
+    <!--<distributionManagement>-->
+        <!--<repository>-->
+            <!--<id>nexus</id>-->
+            <!--<name>Releases</name>-->
+            <!--<url>http://localhost:8081/repository/maven-releases</url>-->
+        <!--</repository>-->
+    <!--</distributionManagement>-->
+
+    <!--&lt;!&ndash;указание локального репозитория пакетов&ndash;&gt;-->
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>nexus</id>-->
+            <!--<name>nexus</name>-->
+            <!--<url>http://localhost:8081/repository/maven-releases/</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
+</project>
